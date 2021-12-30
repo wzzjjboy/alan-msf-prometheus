@@ -1,0 +1,25 @@
+{
+    "name": "alan/msf-prometheus",
+    "type": "library",
+    "description": "msf support prometheus",
+    "keywords": ["msf", "prometheus"],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alan",
+            "email": "280238053@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "roave/better-reflection": "^3.3",
+        "symfony/finder": "^4.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "alan\\msf_prometheus\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
