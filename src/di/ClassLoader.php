@@ -31,7 +31,7 @@ class ClassLoader
 
         // Scan by ScanConfig to generate the reflection class map
         $scanner = new Scanner($this);
-        $reflectionClassMap = $scanner->scan([ROOT_PATH . '/app/controllers/']);
+        $reflectionClassMap = $scanner->scan([ROOT_PATH . '/app/Controllers/']);
         $composerLoaderClassMap = $this->getComposerClassLoader()->getClassMap();
         $proxyManager = new ProxyManager($reflectionClassMap, $composerLoaderClassMap, $proxyFileDir);
         $this->proxies = $proxyManager->getProxies();

@@ -16,7 +16,7 @@ use alan\msf_prometheus\di\BetterReflectionManager;
 use alan\msf_prometheus\di\ClassLoader;
 use alan\msf_prometheus\di\exception\DirectoryNotExistException;
 use alan\msf_prometheus\di\MetadataCollector;
-use alan\msf_prometheus\utils\filesystem\filesystem;
+use alan\msf_prometheus\utils\filesystem\Filesystem;
 use ReflectionProperty;
 use Roave\BetterReflection\Reflection\Adapter;
 use Roave\BetterReflection\Reflection\ReflectionClass;
